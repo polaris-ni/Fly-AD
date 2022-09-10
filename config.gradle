@@ -1,0 +1,20 @@
+// 一些配置文件的保存
+// 使用git的commit记录当做versionCode
+ext {
+    android = [compileSdkVersion: 32,
+               applicationId    : "com.lyni.reader",
+               minSdkVersion    : 23,
+               targetSdkVersion : 32,
+               versionCode      : gitVersionCode(),
+               versionName      : "1." + getVersionName() + "-alpha"]
+}
+
+static def gitVersionCode() {
+    def cmd = 'git rev-list HEAD --count'
+    return cmd.execute().text.trim().toInteger()
+}
+
+static def getVersionName() {
+    def vc = gitVersionCode()
+    return (vc / 10).toInteger() + "." + (vc % 10)
+}

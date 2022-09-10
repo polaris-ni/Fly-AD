@@ -1,0 +1,17 @@
+plugins {
+    id 'com.android.application'
+}
+
+apply from: '../common_apply.gradle'
+
+android {
+    def app_android = rootProject.ext.android
+    defaultConfig {
+        applicationId app_android.applicationId
+        versionCode app_android.versionCode
+        versionName app_android.versionName
+    }
+}
+dependencies {
+    implementation project(":libCore")
+}
