@@ -2,4 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lyni.app.lib.core">
 
+    <application>
+        <service
+            android:name=".service.AdnoService"
+            android:label="Adno"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/accessibility" />
+        </service>
+    </application>
+
 </manifest>

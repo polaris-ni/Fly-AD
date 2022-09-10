@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Data/Projects/AndroidStudioProjects/FlyAD/app/src/main/res/layout/activity_main.xml" value="0.13333333333333333" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/FlyAD/libCore/src/main/res/drawable/app_icon.xml" value="0.1775" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/FlyAD/libCore/src/main/res/layout/common_activity_root.xml" value="0.2359375" />
         <entry key="..\:/Data/Projects/AndroidStudioProjects/FlyAD/libCore/src/main/res/layout/common_fragment_root.xml" value="0.2359375" />
