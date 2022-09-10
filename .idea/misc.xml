@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Data/Projects/AndroidStudioProjects/FlyAD/libCore/src/main/res/drawable/app_icon.xml" value="0.1775" />
+        <entry key="..\:/Data/Projects/AndroidStudioProjects/FlyAD/libCore/src/main/res/layout/common_activity_root.xml" value="0.2359375" />
+        <entry key="..\:/Data/Projects/AndroidStudioProjects/FlyAD/libCore/src/main/res/layout/common_fragment_root.xml" value="0.2359375" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

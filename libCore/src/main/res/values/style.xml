@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--ShapeableImageView 圆角-->
+    <style name="iv_round_16">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dimen_16</item>
+    </style>
+
+    <style name="iv_round">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/dimen_64</item>
+    </style>
+
+    <style name="tv_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/common_bg_12_2b8fec</item>
+        <item name="android:padding">@dimen/dimen_8</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/content_2</item>
+    </style>
+
+    <style name="tv_title_big">
+        <item name="android:textSize">@dimen/title</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="tv_title_small">
+        <item name="android:textSize">@dimen/small_title</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="tv_content_primary">
+        <item name="android:textSize">@dimen/content_1</item>
+        <item name="android:textColor">@color/color_black</item>
+    </style>
+
+    <style name="tv_content_second">
+        <item name="android:textSize">@dimen/content_2</item>
+        <item name="android:textColor">@color/color_gray</item>
+    </style>
+</resources>

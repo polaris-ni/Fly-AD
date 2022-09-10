@@ -2,7 +2,7 @@
 // 使用git的commit记录当做versionCode
 ext {
     android = [compileSdkVersion: 32,
-               applicationId    : "com.lyni.reader",
+               applicationId    : "com.lyni.app.adno",
                minSdkVersion    : 23,
                targetSdkVersion : 32,
                versionCode      : gitVersionCode(),

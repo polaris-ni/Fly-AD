@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Refresh">
+        <!--字符串限制数-->
+        <attr name="assetsName" format="string" />
+    </declare-styleable>
+</resources>

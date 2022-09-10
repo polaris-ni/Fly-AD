@@ -1,0 +1,47 @@
+plugins {
+    id 'com.android.library'
+}
+
+apply from: '../common_apply.gradle'
+
+dependencies {
+    api 'androidx.core:core-ktx:1.8.0'
+    api 'androidx.appcompat:appcompat:1.4.2'
+    api 'androidx.lifecycle:lifecycle-runtime-ktx:2.4.1'
+    api 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1'
+    api 'com.google.android.material:material:1.6.1'
+    // recycler view
+    api 'androidx.recyclerview:recyclerview:1.2.1'
+    // kotlin coroutine
+    api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+    // viewpager
+    api "androidx.viewpager2:viewpager2:1.0.0"
+    // smart refresh layout
+    api 'io.github.scwang90:refresh-layout-kernel:2.0.5'
+    // 万能适配器
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.7'
+    // 工具类库
+    api 'com.github.polaris-ni:Treasure:1.0.0-beta01'
+    // 权限请求框架
+    api 'com.github.polaris-ni:QuickPermission:1.0.0-alpha2'
+//    // 文件选择框架
+//    api 'com.github.polaris-ni:FileSelector:1.0.1-beta1'
+    // mmkv
+    api 'com.tencent:mmkv:1.2.14'
+    //Gson
+    api 'com.google.code.gson:gson:2.9.1'
+//    api 'cn.hutool:hutool-crypto:5.8.1'
+//    api 'org.jsoup:jsoup:1.15.1'
+    // lottie
+    api 'com.airbnb.android:lottie:5.2.0'
+    // 防止数据倒灌的liveData
+    api 'com.kunminx.arch:unpeek-livedata:7.8.0'
+//    // retrofit
+//    api 'com.squareup.retrofit2:retrofit:2.9.0'
+//    api 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+
+//    // Room
+//    api "androidx.room:room-runtime:2.4.2"
+//    api "androidx.room:room-ktx:2.4.2"
+}
